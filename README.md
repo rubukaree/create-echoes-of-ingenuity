@@ -41,4 +41,4 @@ Features, recipes, and systems are subject to change as new ideas are uncovered.
 ## 🕯️ Final Whisper
 > _“Echoes of ingenuity never truly fade.  
 They hum in the gears, and breathe through the steam.”_
-PS C:\Users\Tearer\Main\Echoes> _
+> PS C:\Users\Tearer\Main\Echoes> _
