@@ -37,13 +37,11 @@ This project is currently in **active development**.
 Features, recipes, and systems are subject to change as new ideas are uncovered.
 
 ---
-<sub>
-  
+```powershell
 > run echoes.exe
 
-“Echoes of ingenuity never truly fade.<br>
-They hum in the gears, and breathe through the steam.”<br>
-BUILD SUCCESSFUL in 4s 12ms<br>
-PS C:\Users\Tearer\Main\Echoes>
+“Echoes of ingenuity never truly fade.  
+They hum in the gears, and breathe through the steam.”
 
-<sub>
+BUILD SUCCESSFUL in 4s 12ms
+PS C:\Users\Tearer\Main\Echoes>
