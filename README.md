@@ -37,6 +37,13 @@ This project is currently in **active development**.
 Features, recipes, and systems are subject to change as new ideas are uncovered.
 
 ---
+<sub>
+  
+> run echoes.exe
 
-## 🕯️ Final Whisper
-<pre> ``` “Echoes of ingenuity never truly fade. They hum in the gears, and breathe through the steam.” PS C:\Users\Tearer\Main\Echoes> ``` </pre>
+“Echoes of ingenuity never truly fade.  
+They hum in the gears, and breathe through the steam.”
+BUILD SUCCESSFUL in 4s 12ms
+PS C:\Users\Tearer\Main\Echoes>
+
+<sub>
