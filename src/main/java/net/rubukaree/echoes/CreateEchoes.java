@@ -2,6 +2,7 @@ package net.rubukaree.echoes;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -13,6 +14,8 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.rubukaree.echoes.item.ModCreativeModTabs;
+import net.rubukaree.echoes.item.ModItems;
 import org.slf4j.Logger;
 
 @Mod(CreateEchoes.MOD_ID)
@@ -23,6 +26,10 @@ public class CreateEchoes {
     public CreateEchoes(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
 
+        ModCreativeModTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -31,9 +38,16 @@ public class CreateEchoes {
         context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
-    private void commonSetup(final FMLCommonSetupEvent event) {}
+    private void commonSetup(final FMLCommonSetupEvent event) {
 
-    private void addCreative(BuildCreativeModeTabContentsEvent event) {}
+    }
+
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.MALFORMED_CRYSTAL);
+            event.accept(ModItems.COAL_FRAGMENTS);
+        }
+    }
 
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
@@ -44,6 +58,7 @@ public class CreateEchoes {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            LOGGER.info("YEAH!");
             LOGGER.info("Hello {}", Minecraft.getInstance().getUser().getName());
             LOGGER.info("thx for installing the mod");
             LOGGER.info("- rubukaree");
