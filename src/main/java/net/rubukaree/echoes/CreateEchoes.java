@@ -14,6 +14,7 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.rubukaree.echoes.block.ModBlocks;
 import net.rubukaree.echoes.item.ModCreativeModTabs;
 import net.rubukaree.echoes.item.ModItems;
 import org.slf4j.Logger;
@@ -29,6 +30,7 @@ public class CreateEchoes {
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -46,6 +48,9 @@ public class CreateEchoes {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.MALFORMED_CRYSTAL);
             event.accept(ModItems.COAL_FRAGMENTS);
+            event.accept(ModItems.CRYSTAL_FRAGMENTS);
+            event.accept(ModBlocks.COMPACTED_COAL_BLOCK);
+            event.accept(ModBlocks.CRYSTALLIZED_COAL_BLOCK);
         }
     }
 

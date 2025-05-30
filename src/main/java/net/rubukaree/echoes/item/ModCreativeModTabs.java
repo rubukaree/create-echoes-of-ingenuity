@@ -8,6 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.rubukaree.echoes.CreateEchoes;
+import net.rubukaree.echoes.block.ModBlocks;
 
 public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB =
@@ -20,6 +21,10 @@ public class ModCreativeModTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.MALFORMED_CRYSTAL.get());
                         output.accept(ModItems.COAL_FRAGMENTS.get());
+                        output.accept(ModItems.CRYSTAL_FRAGMENTS.get());
+
+                        output.accept(ModBlocks.COMPACTED_COAL_BLOCK.get());
+                        output.accept(ModBlocks.CRYSTALLIZED_COAL_BLOCK.get());
 
                     })
                     .build());

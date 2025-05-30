@@ -1,5 +1,10 @@
 {
   "item.create-eoi.malformed_crystal": "異形の結晶",
   "item.create-eoi.coal_fragments": "石炭の破片",
+  "item.create-eoi.crystal_fragments": "結晶の破片",
+
+  "block.create-eoi.compacted_coal": "圧縮炭",
+  "block.create-eoi.crystallized_coal": "晶析石炭",
+
   "creativetab.create-eoi_tab": "Create: Echoes of Ingenuity"
 }

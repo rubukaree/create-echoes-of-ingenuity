@@ -1,5 +1,10 @@
 {
   "item.create-eoi.malformed_crystal": "Cristal malformado",
   "item.create-eoi.coal_fragments": "Fragmentos de carbón",
+  "item.create-eoi.crystal_fragments": "Fragmentos de cristal",
+
+  "block.create-eoi.compacted_coal": "Carbón compactado",
+  "block.create-eoi.crystallized_coal": "Carbón cristalizado",
+
   "creativetab.create-eoi_tab": "Create: Echoes of Ingenuity"
 }
