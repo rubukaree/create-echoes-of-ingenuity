@@ -22,9 +22,22 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.MALFORMED_CRYSTAL.get());
                         output.accept(ModItems.COAL_FRAGMENTS.get());
                         output.accept(ModItems.CRYSTAL_FRAGMENTS.get());
+                        output.accept(ModItems.DIAMOND_MOLD.get());
+                        output.accept(ModItems.FILLED_DIAMOND_MOLD.get());
+                        output.accept(ModItems.SANDY_FRAGMENTS.get());
+                        output.accept(ModItems.QUARTZ_POWDER.get());
+                        output.accept(ModItems.MARINE_CRYSTALS.get());
+                        output.accept(ModItems.MARINE_FRAGMENTS.get());
+                        output.accept(ModItems.SOUL_FRAGMENT.get());
+                        output.accept(ModItems.PURE_CRYSTAL.get());
+                        output.accept(ModItems.NETHER_POWDER.get());
+                        output.accept(ModItems.SOUL_POWDER.get());
+                        output.accept(ModItems.STABLE_INGOT.get());
+                        output.accept(ModItems.UNSTABLE_INGOT.get());
 
                         output.accept(ModBlocks.COMPACTED_COAL_BLOCK.get());
                         output.accept(ModBlocks.CRYSTALLIZED_COAL_BLOCK.get());
+                        output.accept(ModBlocks.REFINED_SAND.get());
 
                     })
                     .build());
@@ -33,3 +46,8 @@ public class ModCreativeModTabs {
         CREATIVE_MODE_TAB.register(eventBus);
     }
 }
+
+// if you are seeing this, wth are you doing here?, you should be playing the game!
+// -------------------------------------------------------------------------------------------
+// if you want to learn how to make mods, check this out!
+// https://www.youtube.com/watch?v=55qUIf3GMss&list=PLKGarocXCE1H9Y21-pxjt5Pt8bW14twa-&index=1

@@ -25,6 +25,7 @@ public class CreateEchoes {
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public CreateEchoes(FMLJavaModLoadingContext context) {
+        LOGGER.info("Loading CEOI context");
         IEventBus modEventBus = context.getModEventBus();
 
         ModCreativeModTabs.register(modEventBus);
@@ -36,22 +37,11 @@ public class CreateEchoes {
 
         MinecraftForge.EVENT_BUS.register(this);
 
-        modEventBus.addListener(this::addCreative);
         context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
 
-    }
-
-    private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.MALFORMED_CRYSTAL);
-            event.accept(ModItems.COAL_FRAGMENTS);
-            event.accept(ModItems.CRYSTAL_FRAGMENTS);
-            event.accept(ModBlocks.COMPACTED_COAL_BLOCK);
-            event.accept(ModBlocks.CRYSTALLIZED_COAL_BLOCK);
-        }
     }
 
     @SubscribeEvent

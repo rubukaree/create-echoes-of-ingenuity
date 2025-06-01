@@ -2,9 +2,22 @@
   "item.create-eoi.malformed_crystal": "Cristallo malformato",
   "item.create-eoi.coal_fragments": "Frammenti di carbone",
   "item.create-eoi.crystal_fragments": "Frammenti di cristallo",
+  "item.create-eoi.diamond_mold": "Stampo diamantato",
+  "item.create-eoi.filled_diamond_mold": "Stampo diamantato riempito",
+  "item.create-eoi.sandy_fragments": "Frammenti sabbiosi",
+  "item.create-eoi.quartz_powder": "Polvere di quarzo",
+  "item.create-eoi.marine_crystals": "Cristalli marini",
+  "item.create-eoi.marine_fragments": "Frammenti marini",
+  "item.create-eoi.soul_fragment": "Frammento di anima",
+  "item.create-eoi.pure_crystal": "Cristallo puro",
+  "item.create-eoi.nether_powder": "Polvere del Nether",
+  "item.create-eoi.soul_powder": "Polvere di anima",
+  "item.create-eoi.stable_ingot": "Lingotto stabile",
+  "item.create-eoi.unstable_ingot": "Lingotto instabile",
 
   "block.create-eoi.compacted_coal": "Carbone compattato",
   "block.create-eoi.crystallized_coal": "Carbone cristallizzato",
+  "block.create-eoi.refined_sand": "Sabbia raffinata",
 
   "creativetab.create-eoi_tab": "Create: Echoes of Ingenuity"
 }

@@ -2,9 +2,22 @@
   "item.create-eoi.malformed_crystal": "Cristal malhecho",
   "item.create-eoi.coal_fragments": "Trozos de carbón",
   "item.create-eoi.crystal_fragments": "Pedacitos de gema",
+  "item.create-eoi.diamond_mold": "Pocillo de gema",
+  "item.create-eoi.filled_diamond_mold": "Pocillo de gema con mezcla vertida",
+  "item.create-eoi.sandy_fragments": "Pedacitos de arena",
+  "item.create-eoi.quartz_powder": "Cuarzo impalpable",
+  "item.create-eoi.marine_crystals": "Cristales de mar",
+  "item.create-eoi.marine_fragments": "Orbes marinas",
+  "item.create-eoi.soul_fragment": "Espiritu fraccionado",
+  "item.create-eoi.pure_crystal": "Gema perfecta",
+  "item.create-eoi.nether_powder": "Polvillo inframundial",
+  "item.create-eoi.soul_powder": "Polvillo poseído",
+  "item.create-eoi.stable_ingot": "Lingote estabilizado",
+  "item.create-eoi.unstable_ingot": "Lingote desestabilizado",
 
   "block.create-eoi.compacted_coal": "Carbón presurizado",
   "block.create-eoi.crystallized_coal": "Carbón germinado",
+  "block.create-eoi.refined_sand": "Arena fina",
 
   "creativetab.create-eoi_tab": "Create: Echoes of Ingenuity"
 }

@@ -2,9 +2,22 @@
   "item.create-eoi.malformed_crystal": "異形の結晶",
   "item.create-eoi.coal_fragments": "石炭の破片",
   "item.create-eoi.crystal_fragments": "結晶の破片",
+  "item.create-eoi.diamond_mold": "ダイヤモンドモールド",
+  "item.create-eoi.filled_diamond_mold": "充填ダイヤモンド型",
+  "item.create-eoi.sandy_fragments": "砂の破片",
+  "item.create-eoi.quartz_powder": "石英粉末",
+  "item.create-eoi.marine_crystals": "海洋水晶",
+  "item.create-eoi.marine_fragments": "海洋破片",
+  "item.create-eoi.soul_fragment": "魂のかけら",
+  "item.create-eoi.pure_crystal": "純粋な水晶",
+  "item.create-eoi.nether_powder": "ネザーパウダー",
+  "item.create-eoi.soul_powder": "ソウルパウダー",
+  "item.create-eoi.stable_ingot": "安定したインゴット",
+  "item.create-eoi.unstable_ingot": "不安定なインゴット,",
 
   "block.create-eoi.compacted_coal": "圧縮炭",
   "block.create-eoi.crystallized_coal": "晶析石炭",
+  "block.create-eoi.refined_sand": "精製砂",
 
   "creativetab.create-eoi_tab": "Create: Echoes of Ingenuity"
 }

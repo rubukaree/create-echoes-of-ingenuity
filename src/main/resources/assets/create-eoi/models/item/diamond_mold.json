@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "create-eoi:item/diamond_mold_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "create-eoi:item/diamond_mold_3d"
+    },
+    "ground": {
+      "parent": "create-eoi:item/diamond_mold_3d"
+    },
+    "fixed": {
+      "parent": "create-eoi:item/diamond_mold_3d"
+    }
+  }
+}

@@ -24,6 +24,10 @@ public class ModBlocks {
     public static final RegistryObject<Block> CRYSTALLIZED_COAL_BLOCK = registerBlock(
             "crystallized_coal",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COAL_BLOCK).explosionResistance(300.0f).strength(2.5f)));
+    public static final RegistryObject<Block> REFINED_SAND = registerBlock(
+            "refined_sand",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.SAND)));
+
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

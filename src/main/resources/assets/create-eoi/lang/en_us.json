@@ -2,9 +2,22 @@
   "item.create-eoi.malformed_crystal": "Malformed crystal",
   "item.create-eoi.coal_fragments": "Coal fragments",
   "item.create-eoi.crystal_fragments": "Crystal fragments",
+  "item.create-eoi.diamond_mold": "Diamond mold",
+  "item.create-eoi.filled_diamond_mold": "Filled diamond mold",
+  "item.create-eoi.sandy_fragments": "Sandy fragments",
+  "item.create-eoi.quartz_powder": "Quartz powder",
+  "item.create-eoi.marine_crystals": "Marine crystals",
+  "item.create-eoi.marine_fragments": "Marine fragments",
+  "item.create-eoi.soul_fragment": "Soul fragment",
+  "item.create-eoi.pure_crystal": "Pure crystal",
+  "item.create-eoi.nether_powder": "Nether powder",
+  "item.create-eoi.soul_powder": "Soul powder",
+  "item.create-eoi.stable_ingot": "Stable ingot",
+  "item.create-eoi.unstable_ingot": "Unstable ingot",
 
   "block.create-eoi.compacted_coal": "Compacted coal",
   "block.create-eoi.crystallized_coal": "Crystallized coal",
+  "block.create-eoi.refined_sand": "Refined sand",
 
   "creativetab.create-eoi_tab": "Create: Echoes of Ingenuity"
 }
